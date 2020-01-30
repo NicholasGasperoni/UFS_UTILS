@@ -1,0 +1,8 @@
+The OUMAP hybrid coordinate columns were calculated from
+ZNW and C3F taken from wrfinput_d01. In these files, 
+
+column_1 = ZNW - C3F                 column_2 = C3F
+
+It turns out the values are identical to HRRR's hybrid config.
+
+The only difference is the p_top value.
