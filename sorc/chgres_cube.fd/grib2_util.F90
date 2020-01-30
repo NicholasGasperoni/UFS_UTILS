@@ -53,7 +53,7 @@ subroutine read_vcoord(isnative,vcoordi,vcoordo,lev_input,levp1_input,pt,metadat
   vcoordo(:,:) = 0.0
   sigflat = 0.1
   if (isnative) then 
-    if ((trim(external_model) .eq. 'HRRR' .or. trim(external_model) .eq. 'RAP' 
+    if ((trim(external_model) .eq. 'HRRR' .or. trim(external_model) .eq. 'RAP' &
          .or. trim(external_model) .eq. 'OUMAP') & 
         .and. lev_input == 50) then 
       if (idate(1) .le. 2018 .and. idate(2) .le. 7 .and. idate(3) .lt. 12) then !old sigma coordinates
